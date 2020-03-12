@@ -4,9 +4,10 @@ import './header.scss';
 class Header extends Component {
   render() {
     return (
-      <div>
-        
-      </div>
+      <header className="header">
+        <span className="header__text">Hello World</span>
+        <span className="header__presentation">Hi, I'm Kévin CASSAR, a Full-Stack Developer based in Paris.</span>
+      </header>
     )
   }
 }

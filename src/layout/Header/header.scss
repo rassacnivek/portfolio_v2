@@ -1,0 +1,14 @@
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  &__text {
+    font-size: 56px;
+    letter-spacing: 8px;
+  }
+  &__presentation {
+    font-size: 32px;
+  }
+}
