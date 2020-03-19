@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './base.scss';
 import Header from '../layout/Header';
 import Home from '../pages/Home';
-import Footer from '../layout/Footer';
+// import Footer from '../layout/Footer';
 
 class Base extends Component {
   render() {
@@ -10,7 +10,7 @@ class Base extends Component {
       <div>
         <Header/>
         <Home/>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     )
   }
