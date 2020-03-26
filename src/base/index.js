@@ -40,7 +40,7 @@ class Base extends Component {
             </div>
             </div>
           ) : (
-              <FadeIn delay={250} transitionDuration={1000} className="container">
+              <FadeIn delay={250} className="container">
                 <Header />
                 <Home />
               </FadeIn>
