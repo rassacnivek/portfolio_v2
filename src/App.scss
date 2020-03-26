@@ -2,14 +2,7 @@ body {
   font-family: "Heebo-Regular", sans-serif;
   color: black;
   letter-spacing: 3px;
-  padding: 0 80px;
   text-align: center;
-  @media screen and (max-width: 767px) {
-    padding: 0 70px;
-  }
-  @media screen and (max-width: 635px) {
-    padding: 0 20px;
-  }
 }
 
 a {
