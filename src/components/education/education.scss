@@ -1,4 +1,4 @@
-.about {
+.education {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -7,12 +7,17 @@
   &__header {
     font-size: 32px;
   }
-  &__presentation {
-    .work {
-      margin-top: 50px;
+  &__schools {
+    .school {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
       @media screen and (max-width: 416px) {
+        margin-bottom: 45px;
         font-size: 15px;
-        margin-top: 0px;
+      }
+      &:last-child {
+        margin: 0;
       }
     }
   }

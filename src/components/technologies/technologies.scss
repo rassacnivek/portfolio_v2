@@ -1,0 +1,23 @@
+.technologies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  font-size: 20px;
+  &__header {
+    font-size: 32px;
+  }
+  &__list {
+    column-count: 3;
+    @media screen and (max-width: 767px) {
+      column-count: 1;
+    }
+    .technology {
+      margin: 0;
+      margin-bottom: 20px;
+      &.second {
+        margin: 10px 0;
+      }
+    }
+  }
+}
