@@ -53,12 +53,13 @@ class Base extends Component {
                   render={
                     ({ state, fullpageApi }) => {
                       return (
-                        <Header />
-                        <About />
-                        <Education />
-                        <Technologies />
-                        <Contact />
-
+                        <>
+                          <Header />
+                          <About />
+                          <Education />
+                          <Technologies />
+                          <Contact />
+                        </>
 
 
                         // <ReactFullpage.Wrapper>
