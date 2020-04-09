@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './base.scss';
 import Header from '../layout/Header';
-import About from '../../components/about';
-import Education from '../../components/education';
-import Technologies from '../../components/technologies';
-import Contact from '../../components/contact';
+import About from '../components/about';
+import Education from '../components/education';
+import Technologies from '../components/technologies';
+import Contact from '../components/contact';
 import { Lottie } from '@crello/react-lottie';
 import animationData from '../assets/loader.json';
 import FadeIn from 'react-fade-in';
