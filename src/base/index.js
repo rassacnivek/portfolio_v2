@@ -23,7 +23,7 @@ class Base extends Component {
       this.setState({
         showLoader: false
       });
-    }, 1500);
+    }, 1750);
   }
 
   render() {
@@ -46,36 +46,28 @@ class Base extends Component {
           ) : (
               <FadeIn delay={250} className="container">
                 <ReactFullpage
-                  //fullpage options
-                  licenseKey={'YOUR_KEY_HERE'}
-                  scrollingSpeed={1000} /* Options here */
-
+                  licenseKey={'eV!2?iH?m4'}
+                  scrollingSpeed={1000}
                   render={
                     ({ state, fullpageApi }) => {
                       return (
-                        <>
-                          <Header />
-                          <About />
-                          <Education />
-                          <Technologies />
-                          <Contact />
-                        </>
-
-
-                        // <ReactFullpage.Wrapper>
-                        //   <div className="section">
-                        //     <p>Section 1 (welcome to fullpage.js)</p>
-                        //     <button onClick={() => fullpageApi.moveSectionDown()}>
-                        //       Click me to move down
-                        //   </button>
-                        //   </div>
-                        //   <div className="section">
-                        //     <p>Section 2</p>
-                        //     <button onClick={() => fullpageApi.moveSectionUp()}>
-                        //       Click me to move up
-                        //   </button>
-                        //   </div>
-                        // </ReactFullpage.Wrapper>
+                        <ReactFullpage.Wrapper>
+                          <div className="section">
+                            <Header />
+                          </div>
+                          <div className="section">
+                            <About />
+                          </div>
+                          <div className="section">
+                            <Education />
+                          </div>
+                          <div className="section">
+                            <Technologies />
+                          </div>
+                          <div className="section">
+                            <Contact />
+                          </div>
+                        </ReactFullpage.Wrapper>
                       );
                     }
                   }
